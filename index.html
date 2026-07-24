@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Royal Indian Wedding</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@600;700;900&family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==================== ANCIENT CARVED DOORS OVERLAY ==================== -->
+  <div id="doorOverlay" class="door-overlay">
+    <!-- Left Door -->
+    <div class="door door-left">
+      <div class="door-carving">
+        <div class="carved-arch"></div>
+        <div class="mandala-carving"></div>
+        <div class="panel-pattern"></div>
+        <div class="brass-handle"></div>
+      </div>
+    </div>
+
+    <!-- Right Door -->
+    <div class="door door-right">
+      <div class="door-carving">
+        <div class="carved-arch"></div>
+        <div class="mandala-carving"></div>
+        <div class="panel-pattern"></div>
+        <div class="brass-handle"></div>
+      </div>
+    </div>
+    
+    <!-- Royal Brass Seal CTA -->
+    <div class="door-seal" onclick="openDoors()">
+      <div class="seal-ring"></div>
+      <div class="seal-inner">
+        <p class="seal-sub">Shubh Vivah</p>
+        <span class="seal-title">TAP TO UNLOCK</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MAIN CONTENT SECTION ==================== -->
+  <main class="main-content">
+    
+    <!-- Hero / Couple Intro Section -->
+    <section class="hero-section">
+      <div class="container">
+        <p class="royal-tagline">✦ Together with Their Families ✦</p>
+        <h1 class="wedding-title">Omkar G  &amp; [Bride's Name]</h1>
+        <p class="wedding-subtitle">Invite you to celebrate their union</p>
+
+        <!-- Couple Display Cards -->
+        <div class="couple-grid">
+          <!-- Groom -->
+          <div class="couple-card groom">
+            <div class="frame-border">
+              <img src="groom.jpg" alt="Groom" />
+            </div>
+            <h3>Omkar G </h3>
+            <p class="role">The Groom</p>
+            <p class="parent-info">Son of [Father's Name] &amp; [Mother's Name]</p>
+            <p class="bio">"A journey of a thousand miles begins with a single step... together."</p>
+          </div>
+
+          <!-- Symbol Divider -->
+          <div class="divider">
+            <div class="knot-icon">💍</div>
+          </div>
+
+          <!-- Bride -->
+          <div class="couple-card bride">
+            <div class="frame-border">
+              <img src="bride.jpg" alt="Bride" />
+            </div>
+            <h3>[Bride's Name]</h3>
+            <p class="role">The Bride</p>
+            <p class="parent-info">Daughter of [Father's Name] &amp; [Mother's Name]</p>
+            <p class="bio">"Two souls, one heart, forever united in love and laughter."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown Timer Section -->
+    <section class="countdown-section">
+      <h2>The Auspicious Moment Arrives In</h2>
+      <div class="timer">
+        <div class="time-box"><span id="days">00</span><small>Days</small></div>
+        <div class="time-box"><span id="hours">00</span><small>Hours</small></div>
+        <div class="time-box"><span id="minutes">00</span><small>Minutes</small></div>
+        <div class="time-box"><span id="seconds">00</span><small>Seconds</small></div>
+      </div>
+    </section>
+
+    <!-- Detailed Itinerary / Schedule -->
+    <section class="events-section">
+      <h2 class="section-title">Wedding Functions</h2>
+      <div class="events-timeline">
+        
+        <div class="event-card">
+          <div class="event-icon">🪔</div>
+          <h3>Sangeet &amp; Mehendi</h3>
+          <p class="event-time">📅 Dec 24, 2026 | 6:00 PM onwards</p>
+          <p class="event-desc">An evening filled with music, dance, and colorful henna designs.</p>
+        </div>
+
+        <div class="event-card highlight">
+          <div class="event-icon">🏛️</div>
+          <h3>The Muhurtham (Wedding)</h3>
+          <p class="event-time">📅 Dec 25, 2026 | 9:30 AM</p>
+          <p class="event-desc">The sacred rituals and wedding vows taking place under the mandap.</p>
+        </div>
+
+        <div class="event-card">
+          <div class="event-icon">✨</div>
+          <h3>Grand Reception</h3>
+          <p class="event-time">📅 Dec 25, 2026 | 7:00 PM</p>
+          <p class="event-desc">Join us for a royal dinner celebration and blessing the newlyweds.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Location & Venue Details -->
+    <section class="venue-section">
+      <h2 class="section-title">Venue &amp; Location</h2>
+      <p class="venue-name">The Royal Palace Hall</p>
+      <p class="venue-address">Bengaluru, Karnataka, India</p>
+      <a href="https://maps.google.com" target="_blank" class="map-btn">📍 Get Directions on Google Maps</a>
+    </section>
+
+    <!-- Footer RSVP -->
+    <footer class="footer">
+      <p>We await your gracious presence!</p>
+      <small>#Omkar G WedsBride</small>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
